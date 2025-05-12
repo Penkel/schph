@@ -8,7 +8,7 @@ const Home = () => {
       <div className="w-screen flex flex-col-reverse md:flex-row items-center text-center justify-around p-6">
         <div className="w-full text-left ">
           <h2 className="text-left ">Фотограф СПб</h2>
-          <h1 className="mt-2 text-3xl text-left text-bold">
+          <h1 className="title-main">
             Найми себе фотографа из Санкт-Петербурга!
           </h1>
           <h3 className="mt-2">Цены от 500 руб</h3>

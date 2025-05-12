@@ -43,7 +43,7 @@ const Navbar = () => {
         </div> 
         {/* Mobile */}
         <div className={` ${
-          nav ? 'opacity-100 translate-y-0': 'opacity-0 -translate-y-2'
+          nav ? 'opacity-100 translate-y-0 pointer-events-auto': 'opacity-0 -translate-y-2 pointer-events-none'
         } left-0  w-full top-full  overflow-hidden absolute bg-white  flex flex-row transition-all items-center justify-center md:hidden ease-in-out duration-500 z-10`}>
             <ul className='flex flex-col text-center p-4 text-black text-xl'>
             <li
