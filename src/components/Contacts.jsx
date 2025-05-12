@@ -19,7 +19,7 @@ const Contacts = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2'>
       <div className='flex flex-col items-center'>
-        <h2 className='text-xl bold'>Социальные сети</h2>
+        <h2 className='text-xl bold mt-2'>Социальные сети</h2>
       <ContactEl className='hover:text-gray-500 transition-all ' link={'https://vk.com/public206046436'} icon={<FaVk size={30} />} text={"Группа ВК"}/>
       <ContactEl link={'https://telegram.me/tasamayairene'} icon={<FaTelegramPlane size={30} />} text={"Телеграм"}/>
       <hr className='bg-gray-200 m-4 w-48 h-0.5'/>

@@ -44,30 +44,32 @@ const Navbar = () => {
         {/* Mobile */}
         <div className={` ${
           nav ? 'opacity-100 translate-y-0 pointer-events-auto': 'opacity-0 -translate-y-2 pointer-events-none'
-        } left-0  w-full top-full  overflow-hidden absolute bg-white  flex flex-row transition-all items-center justify-center md:hidden ease-in-out duration-500 z-10`}>
-            <ul className='flex flex-col text-center p-4 text-black text-xl'>
+        } left-0   w-full top-full  overflow-hidden absolute bg-white  flex flex-col transition-all items-center justify-center md:hidden ease-in-out duration-500 z-10`}>
+          <hr className='bg-gray-200  w-full h-0.2'/>
+            <ul className='flex flex-col items-center text-center p-4 text-black text-xl'>
             <li
-            className="cursor-pointer"
+            className="cursor-pointer hover:underline hover:underline-offset-4 underline-offset-2 decoration-gray-400 decoration-wavy transition-all duration-200"
           >
-            Портфолио
+             <Link to={'/portfolio'}> Портфолио </Link>
+            
           </li>
             <li
-            className="cursor-pointer"
+            className="cursor-pointer hover:underline hover:underline-offset-4 underline-offset-2 decoration-gray-400 decoration-wavy transition-all duration-200"
           >
             Прайсы
           </li>
             <li
-            className="cursor-pointer"
+            className="cursor-pointer hover:underline hover:underline-offset-4 underline-offset-2 decoration-gray-400 decoration-wavy transition-all duration-200"
           >
            <Link to={'/about'}> Обо мне </Link>
           </li>
             <li
-            className="cursor-pointer"
+            className="cursor-pointer hover:underline hover:underline-offset-4 underline-offset-2 decoration-gray-400 decoration-wavy transition-all duration-200"
           >
            <Link to={'/contacts'}> Связаться </Link>
           </li>
-          
             </ul>
+           <hr className='bg-gray-200 -mt-3 w-full h-0.2'/>
         </div>
     </div>
   )

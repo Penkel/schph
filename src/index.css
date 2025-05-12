@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
 
 @layer components {
+    * {
+        @apply text-justify
+    }
     .btn-main {
         @apply bg-black p-3 uppercase text-white font-normal px-4 border border-black
     }
