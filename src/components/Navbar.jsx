@@ -28,11 +28,14 @@ const Navbar = () => {
             <li className='p-4 text-xl cursor-pointer'>
                 <Link to='/portfolio'>Портфолио</Link>
             </li>
-            <li className='p-4 text-xl cursor-pointer'>
-                Обо мне
-            </li>
             <li className='p-4 text-xl  cursor-pointer'>
                 Прайсы
+            </li>
+            <li className='p-4 text-xl cursor-pointer'>
+                <Link to={'/about'}> Обо мне </Link> 
+            </li>
+            <li className='p-4 text-xl cursor-pointer'>
+                <Link to={'/contacts'}> Связаться </Link> 
             </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden ml-4 z-20">
@@ -56,8 +59,14 @@ const Navbar = () => {
             <li
             className="cursor-pointer"
           >
-            Обо мне
+           <Link to={'/about'}> Обо мне </Link>
           </li>
+            <li
+            className="cursor-pointer"
+          >
+           <Link to={'/contacts'}> Связаться </Link>
+          </li>
+          
             </ul>
         </div>
     </div>

@@ -13,6 +13,7 @@ module.exports = {
       xl: '1192px',
     },
     extend: {
+      textColor: ['hover'],
       colors: {
         back: '#ffffff'
       },
