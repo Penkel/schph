@@ -6,6 +6,7 @@ import About from "./components/About";
 import Layout from "./Layout";
 import Portfolio from "./components/Portfolio";
 import Contacts from "./components/Contacts";
+import Prices from "./components/Prices";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="contacts" element={<Contacts />} />
+        <Route path="prices" element={<Prices />} />
       </Route>
     </Routes>
   );

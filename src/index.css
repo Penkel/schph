@@ -8,7 +8,7 @@
         @apply text-justify
     }
     .btn-main {
-        @apply bg-black p-3 uppercase text-white font-normal px-4 border border-black
+        @apply bg-black p-3 text-center uppercase text-white font-normal px-4 border border-black
     }
     .title-main {
         @apply mt-2 text-3xl text-left font-bold

@@ -33,7 +33,7 @@ const Contacts = () => {
         <p className='mt-2'>Вместе мы создадим снимки, наполненные душой, передающие твою истинную красоту и эмоции. Напиши мне свои пожелания: когда тебе удобно встретиться, в каком образе хочешь фотосессию, можешь отправить референсы.</p>
         <p className='font-bold mt-2'>Жду тебя!</p>
       </div>
-      <div className='mt-4 grid grid-cols-2 gap-2 md:col-span-2 '>
+      <div className='mt-4 grid grid-cols-2 gap-2 md:col-span-2 md:grid-cols-4 '>
         <PortfolioImage src={img1}/>
         <PortfolioImage src={img2}/>
         <PortfolioImage src={img3}/>
