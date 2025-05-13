@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/schph/static/css/main.24fd51b7.css",
+    "main.js": "/schph/static/js/main.dc768e8b.js",
+    "static/js/453.421def16.chunk.js": "/schph/static/js/453.421def16.chunk.js",
+    "static/media/17.jpg": "/schph/static/media/17.810237952143c15998dd.jpg",
+    "static/media/20.jpg": "/schph/static/media/20.097fd7c41d278c8cdd85.jpg",
+    "static/media/16.jpg": "/schph/static/media/16.ffa83e127fd945749e6c.jpg",
+    "static/media/8.jpg": "/schph/static/media/8.e17ad1b7473b76d74b99.jpg",
+    "static/media/10.jpg": "/schph/static/media/10.5d4062c45413ebec588c.jpg",
+    "static/media/5.jpg": "/schph/static/media/5.a6372085a6e29bacbe9b.jpg",
+    "static/media/21.jpg": "/schph/static/media/21.b314c31ef7cbdf1245b0.jpg",
+    "static/media/11.jpg": "/schph/static/media/11.0a429e1b15419fc0bfdd.jpg",
+    "static/media/7.jpg": "/schph/static/media/7.d36efc15e469ed370bcc.jpg",
+    "static/media/6.jpg": "/schph/static/media/6.47ea4ae3c6446f73ba72.jpg",
+    "static/media/18.jpg": "/schph/static/media/18.454133021323d0e5712a.jpg",
+    "static/media/main.jpg": "/schph/static/media/main.2584402d846ccd75a432.jpg",
+    "static/media/4.jpg": "/schph/static/media/4.4ea35a2fd52ebbc01d05.jpg",
+    "static/media/15.jpg": "/schph/static/media/15.cdf411773fbebb66c229.jpg",
+    "static/media/12.jpg": "/schph/static/media/12.f2e61e3bde40349eb426.jpg",
+    "static/media/sych.jpg": "/schph/static/media/sych.26d80f78ca19a5323a9b.jpg",
+    "static/media/9.jpg": "/schph/static/media/9.b27b115c8f2ee8635700.jpg",
+    "static/media/1.jpg": "/schph/static/media/1.12a2298756012389c6fd.jpg",
+    "static/media/14.jpg": "/schph/static/media/14.79dc1cb56533ef0707a9.jpg",
+    "static/media/19.jpg": "/schph/static/media/19.96a818afe31cb5909401.jpg",
+    "static/media/2.jpg": "/schph/static/media/2.5b3de8aceeeef8d6dd53.jpg",
+    "static/media/3.jpg": "/schph/static/media/3.9dff8e6a71e53c9230a7.jpg",
+    "static/media/13.jpg": "/schph/static/media/13.b48a35c8b737f517f79b.jpg",
+    "static/media/logo.svg": "/schph/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/schph/index.html",
+    "main.24fd51b7.css.map": "/schph/static/css/main.24fd51b7.css.map",
+    "main.dc768e8b.js.map": "/schph/static/js/main.dc768e8b.js.map",
+    "453.421def16.chunk.js.map": "/schph/static/js/453.421def16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24fd51b7.css",
+    "static/js/main.dc768e8b.js"
+  ]
+}
