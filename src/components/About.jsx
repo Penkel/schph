@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <section className=" bg-back">
-      <div className="w-screen flex flex-col md:flex-row items-center text-center justify-around p-6 ">
+      <div className=" flex flex-col md:flex-row items-center text-center justify-around p-6 ">
         <div
           className=" 
       w-full md:w-auto overflow-hidden mb-9 flex items-center justify-center
@@ -22,7 +22,7 @@ const About = () => {
           <div className=" md:mr-8 w-full md:h-auto h-60 overflow-hidden flex justify-center items-center">
             <img
               className=" 
-        w-full h-auto rounded shadow object-cover -translate-y-28"
+        w-full h-auto rounded shadow object-cover -translate-y-18"
               src={sych_photo}
               alt="Сыч"
             />

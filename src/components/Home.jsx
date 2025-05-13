@@ -8,7 +8,7 @@ import imB from '../images/portfolio/21.jpg'
 const Home = () => {
   return (
     <section className=" bg-back">
-      <div className="w-screen flex flex-col-reverse md:flex-row items-center text-center justify-around p-6 ">
+      <div className=" flex flex-col-reverse md:flex-row items-center text-center justify-around p-6 ">
         <div className="w-full text-left ">
           <h2 className="text-left ">Фотограф СПб</h2>
           <h1 className="title-main">
@@ -19,7 +19,7 @@ const Home = () => {
           <p className="mt-2">Мечтаешь о фотосессии, которая подарит тебе незабываемые эмоции и чудесные снимки, которые ты будешь хранить до самой старости? Тогда нам с тобой по пути!</p>
           <p className="mt-2">Если хочешь узнать обо мне больше, <Link className="text-gray-700 hover:decoration-wavy underline underline-offset-2" to={'./about'}>кликай сюда</Link>, или ознакомься с моим творчеством по кнопочкам ниже!</p>
 
-          <div className="flex gap-2 mt-4">
+          <div className="flex gap-2 mt-4 flex-col items-center md:flex-row">
       <Link to={'./portfolio'}>
       <button className="btn-main  bg-white text-black">Ознакомиться с портфолио</button>
       </Link>
