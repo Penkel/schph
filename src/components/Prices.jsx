@@ -1,5 +1,4 @@
 import React from 'react'
-import PortfolioImage from './podcomponents/PortfolioImage'
 import imgStud from '../images/portfolio/11.jpg'
 import PriceEl from './podcomponents/PriceEl'
 import imgStr from '../images/portfolio/12.jpg'
