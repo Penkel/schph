@@ -1,4 +1,9 @@
 {
+  
+  "homepage": "https://penkel.github.io/schph",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   "name": "phsite",
   "version": "0.1.0",
   "private": true,
@@ -39,6 +44,8 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^3.4.17"
   }
+  
 }
